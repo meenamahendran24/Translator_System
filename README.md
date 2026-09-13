@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Translator System
 
 A Streamlit web application for translating text between multiple languages. It uses `deep-translator` with Google Translate and displays any local translation history available in the project data directory.
@@ -26,3 +27,7 @@ The app will receive a URL in the form `https://<your-app-name>.streamlit.app`.
 - `requirements.txt` contains the tested Python dependencies.
 - `data/translation_history.csv` is intentionally ignored by Git because it can contain user-entered text. Any runtime file storage on Streamlit Community Cloud is not durable; use a hosted database or object storage if persistent shared history is required.
 - No app secrets are currently required. Google Translate requests are made through the `deep-translator` package, so translation availability is subject to that upstream service.
+=======
+# Translator_System
+Multi-language text translator built with Streamlit and Google Translate, with local history tracking.
+>>>>>>> 7e5e1afcee3d3776a383d9f83b76a2050f13533b
